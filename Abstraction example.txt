@@ -1,0 +1,33 @@
+class Bird {
+  String name;
+  int size;
+  int strength;
+
+  protected void attack() {
+     
+
+  public String getName(){
+    return name;
+  }
+}
+
+class Hal extends Bird {
+  @Override
+  public void attack() {
+    
+  }
+}
+
+class Chuck extends Bird {
+  @Override
+  public void attack() {
+    
+}
+
+ 
+Bird chuck = new Chuck();
+Bird hal = new Hal();
+
+ 
+chuck.attack(); 
+hal.attack();  
